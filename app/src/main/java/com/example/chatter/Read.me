@@ -1,0 +1,208 @@
+
+Chatter App :
+
+Main features -->
+1.Custom authentication with jwt with custom server ktor
+2. one to one , one to many chats with web socket ktor
+3. handle message read and unread  with web socket ktor
+4. FCM notification firebase
+5. voice and video call stream sdk
+6.message and voice and video  receive even if the app is
+in background
+7.online/offline , lastSeen , typing  with web socket ktor
+
+
+
+
+
+
+
+some time there is network issue
+
+
+
+
+---->>Custom Authentication with jwt
+In Custom server   , user password is saved safely after
+email authentication
+means 2 factor authentication and create token
+
+Implementation
+Mongo db for database
+server with ktor , kotlin
+koin for dependency injection
+
+
+
+
+
+
+
+
+
+
+
+
+
+let see group chat
+
+some time fcm takes time to send message
+let see how app pworks in background
+
+
+
+
+
+
+
+
+FCM sometime takes time to send message .
+
+let see working of voice and video call first
+
+maaz phone has old data i have wipe but no idea
+
+
+
+let see how code works when app is in background
+
+
+let see online , typing
+
+
+there is small bug when app is in background call activity should be destroyed .
+
+let see read and unread messages
+
+
+
+bad luck fcm could not send fcm takes time some time
+
+
+
+
+
+
+
+
+
+
+
+
+
+---->> One to one , one to many chats ,  Message read and unread
+user can message in  one to one , one to many chats
+
+Implementation
+Mongo db for database
+server with ktor , kotlin
+koin for dependency injection
+session and cookies
+
+
+
+
+
+
+
+
+----->> Fcm notification
+notification is implemented  in two ways
+1. via firebase
+2. via stream
+
+for notification of message when user have closed his app then we use firebase
+and notification is push from the custom server so no hacker can hack our app .
+
+For video and voice call stream automatically notify other user
+
+
+
+----->> voice and video call
+user can do voice and video call in one to one chat and one to many chats
+
+we show ringing and outgoing screen to users
+if user has closed app then ringing screen is shown automatically
+so service works even if the app is in background or closed  .
+
+
+
+
+
+
+
+
+
+
+let see how app work when app is in background
+
+
+
+
+
+
+
+
+
+
+
+let see read and unread messages in one to one chat
+now in group chat
+
+
+in read and unread there is two cases
+user read during chat is open by other user who sending message
+user read before or after chat is open by other user who is sending i have handle all .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let see online , typing working
+
+------>> online , typing
+we have use the web sockets for online/offline , typing / online
+
+
+
+
+
+
+
+
+------------->>> android client with kotlin
+Room  for database
+koin for dependency injection
+ktor client for http request
+work manager for background work
+clean app architecture
+Jetpack compose
+coroutine & flows for faster works
+
+
+
+
+-------------->>> Server with ktor and kotlin
+Mongo db for database
+koin for dependency injection
+Mutex to prevent race condition
+
+

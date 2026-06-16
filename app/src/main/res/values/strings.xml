@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Chatter</string>
+
+    <!-- Intro screen-->
+
+    <string name="signup">Create an account</string>
+    <string name="signin">Sign in</string>
+</resources>
