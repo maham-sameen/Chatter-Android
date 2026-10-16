@@ -23,7 +23,7 @@
 
 > Watching is faster than reading. Tap the thumbnail 👇
 
-[![Watch the Chatter demo on YouTube](https://img.youtube.com/vi/pO29lKkpbnY/maxresdefault.jpg)](https://youtu.be/pO29lKkpbnY?si=LCaARmWErFaKHm7n)
+[![Watch the Chatter demo on YouTube](https://img.youtube.com/vi/pO29lKkpbnY/maxresdefault.jpg)](https://youtu.be/1XUXYZCZqes?si=GigxqN-iqgbtJTq4)
 
 ---
 
