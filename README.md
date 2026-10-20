@@ -121,7 +121,7 @@ cd Chatter-Android
 ```
 
 1. Open in **Android Studio (Koala or newer)**, **JDK 17**.
-2. The included `app/google-services.json` is wired to my dev Firebase project — replace it with your own if you want to point at your Firebase.
+2. Add your own `app/google-services.json` from your Firebase project — it's gitignored, so it is **not** included in this repo.
 3. Start the backend → **[Chatter-Server](https://github.com/maham-sameen/Chatter-Server)** (default port `8083`).
 4. Set the backend URL in `Constants.kt` if it differs from the default.
 5. ▶ Run on a device or emulator (API 24+).
